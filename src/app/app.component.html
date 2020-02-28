@@ -1,0 +1,15 @@
+ <HEADER>
+	<ul>
+	<li><a [routerLink]="['/SobreMi']" [routerLinkActive]="['actived']">SOBRE MI</a></li>
+	<li><a [routerLink]="['/Proyectos']" [routerLinkActive]="['actived']">PROYECTOS</a></li>
+	<li class="logo" id="logo"><a href="#">SM</a></li>
+	<li><a [routerLink]="['/crear-proyecto']" [routerLinkActive]="['actived']">CREAR PROYECTOS</a></li>
+	<li><a [routerLink]="['/Contacto']" [routerLinkActive]="['actived']">CONTACTO</a></li>	
+</ul>
+</HEADER>
+
+<section id="content">
+	<router-outlet></router-outlet>
+
+</section>
+<footer>Master JavaScript - Samir Mahmud &copy;</footer>
